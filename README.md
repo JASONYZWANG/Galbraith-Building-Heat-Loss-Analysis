@@ -25,15 +25,22 @@ The application reads temperature information from uploaded image filenames, ass
 ## Heat-Loss Model
 
 The program estimates heat loss using:
+
+```text
 Heat Loss = U × A × |ΔT|
+```
 
 where:
+
 * `U` is the material U-value in W/m²K
 * `A` is the surface area in m²
 * `ΔT` is the difference between the surface and environmental temperatures
 
 The annual energy-loss estimate is calculated using:
+
+```text
 Annual Energy Loss = Heat Loss × 8760 / 1000
+```
 
 ## Technologies
 
@@ -49,12 +56,19 @@ Annual Energy Loss = Heat Loss × 8760 / 1000
 The program reads temperature and material information from the image filename.
 
 Use the following format:
+
+```text
 ZoneName(AverageTemperature MaximumTemperature MinimumTemperature MaterialID).png
+```
 
 Example:
+
+```text
 NorthWindow(12.4 15.2 9.8 2).png
+```
 
 In this example:
+
 * Zone: `NorthWindow`
 * Average temperature: `12.4°C`
 * Maximum temperature: `15.2°C`
@@ -65,17 +79,26 @@ The application includes a material ID reference table in the sidebar.
 
 ## Installation
 
-*Clone the repository:
+Clone the repository:
+
+```bash
 git clone https://github.com/your-username/Galbraith-Building-Heat-Loss-Analysis.git
 cd Galbraith-Building-Heat-Loss-Analysis
+```
 
-*Install the required packages:
+Install the required packages:
+
+```bash
 pip install streamlit pandas numpy plotly pillow
+```
 
-*Run the application:
+Run the application:
+
+```bash
 streamlit run app.py
+```
 
-*Replace `app.py` with the actual name of the main Python file when necessary.
+Replace `app.py` with the actual name of the main Python file when necessary.
 
 ## Usage
 
