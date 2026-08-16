@@ -8,6 +8,7 @@ import plotly.graph_objects as go
 import io
 
 # ── Material definitions ────────────────────────────────────────────────────
+#("material name, the thermal constant of a certain material");
 MATERIALS = {
     1:  ("Single Glazed Glass",       5.7),
     2:  ("Double Glazed Glass",        2.8),

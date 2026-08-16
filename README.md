@@ -34,7 +34,7 @@ where:
 
 * `U` is the material U-value in W/m²K
 * `A` is the surface area in m²
-* `ΔT` is the difference between the surface and environmental temperatures
+* `ΔT` is the difference between the surface and environmental temperatures which were collected by thermal camera
 
 The annual energy-loss estimate is calculated using:
 
