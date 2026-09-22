@@ -1,0 +1,4 @@
+zone,average_c,maximum_c,minimum_c,material,u_value,area_m2,reference_c,reference_basis,note
+Glass door,16.8,18.7,15.4,Single glazed glass,5.7,1.0,22.5,indoor_air,Historical workbook row 7; area is a normalized assumption
+Glass wall,16.4,22.6,12.8,Double glazed glass,2.8,1.0,22.5,indoor_air,Historical workbook row 8; material assignment is unverified
+Metal door edge,10.9,18.3,7.8,Metal door edge,5.7,1.0,22.5,indoor_air,Historical workbook row 9; not a measured assembly U-value
